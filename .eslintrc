@@ -5,9 +5,11 @@
     },
     "extends": [
       "eslint:recommended",
-    "plugin:react/recommended"
+      "plugin:react/recommended"
     ],
+    "globals": { "window": true },
     "settings": {
+      "no-console": 1,
       "react": {
         "pragma": "React",  // Pragma to use, default to "React"
         "version": "16.2", // React version, default to the latest React stable release

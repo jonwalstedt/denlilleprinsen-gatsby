@@ -15,7 +15,12 @@ module.exports = {
       }
     },
     'gatsby-plugin-react-helmet',
-    'gatsby-plugin-sass',
+    {
+      resolve: 'gatsby-plugin-postcss',
+      options: {
+        postCssPlugins: [require('postcss-preset-env')({ stage: 0 })],
+      },
+    },
     {
       resolve: 'gatsby-source-filesystem',
       options: {

@@ -45,6 +45,8 @@
     "eslint-plugin-import": "^2.14.0",
     "eslint-plugin-react": "^7.11.1",
     "gatsby-plugin-eslint": "^2.0.1",
+    "gatsby-plugin-postcss": "^2.0.1",
+    "postcss-preset-env": "^6.3.0",
     "prettier": "^1.7.4",
     "rimraf": "^2.6.2"
   }

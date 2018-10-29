@@ -4,6 +4,7 @@ import Layout from '../components/Layout'
 
 export default class IndexPage extends React.Component {
   render() {
+    window.console.log('this.props:', this.props);
     return (
       <Layout>
         <section className="section">
